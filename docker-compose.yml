@@ -1,0 +1,9 @@
+services:
+
+  # applying round robin algo for distributing the load by making the copies of the server
+  level5:
+    build: ./
+    ports:
+      - 5000:5000
+  
+ 
