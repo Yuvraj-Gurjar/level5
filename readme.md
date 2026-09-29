@@ -39,3 +39,6 @@ Key Learnings
 	.now go to github ->settings->secrets and variable->actions(inside this make new repo write ssh_host and ssh_key),also add the elastic ip address in the secret section.,also add the level5kp.pem data in ssh_key.
 	.now start and connect the instance copy the ssh path paste it in cmd
 	.go to root folder (cd level5)
+	.push the changes on github and see the actions (green tick)
+	.go to cmd write->sudo docker ps -u will see docker and its image are running properly
+	
